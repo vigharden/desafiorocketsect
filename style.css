@@ -1,0 +1,115 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #2C2B3D;
+
+    margin: 0; 
+}
+
+.page{
+    width: 1280px;
+    margin: 0 98px;
+}
+
+
+
+header {
+    margin: 0 60px;
+}
+
+.paige img {
+    display: flex;
+    margin: 202px 780px 235px 99px ;
+}
+
+main{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+
+    
+    padding: 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 71px 0;
+
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 36px;
+}
+
+span {
+    color: #00BFA6;
+}
+
+p {
+    width: 604px;
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #C2C2C2;
+ 
+}
+
+
+.line {  
+    width: 568px;
+    height: 0;
+
+    color: #00BFA6;
+
+    margin: 0 auto 27px;
+    border: 1px solid;
+
+}
+
+footer{
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+
+    position: flex;
+
+    margin-top: 140px;
+    margin-bottom: 23px;
+
+}
+
+.cadeado {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
